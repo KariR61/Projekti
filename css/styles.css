@@ -1,0 +1,104 @@
+/*use element selector to select all p elements for this style*/
+p{
+    
+    /*color: greenyellow;*/
+    
+    color: orange;
+    font-size: 20px;
+    
+}
+
+p10{
+    
+    /*color: greenyellow;*/
+    
+    color: red;
+    font-size: 18px;
+    background-color: royalblue; 
+}
+
+p12 { 
+    color: black;
+    width: 800px;
+    margin: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 20px;
+    top: 30px;
+    position: relative;
+    /*bottom: 0;*/
+    /*right:auto*/
+    left:20;
+    /*width: 300px;*/
+    /*border: 3px solid #73AD21;*/
+}
+
+/*Use class selector to define style for elements*/
+.mun_keksima{
+    
+    background-color: aquamarine;
+}
+
+.fancy{
+    
+    color: black;
+    border: 2px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+/*Use id selector to define style*/
+#joku_tyyli{
+    color: orange;
+    /*margin: 100px;*/
+}
+
+.login_container{
+    /*
+    width: 500px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: darksalmon;
+    padding: 8px;
+    */
+    
+    width: 800px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 8px;
+}
+/*
+.about{
+    /*
+    width: 500px;
+    margin: 8px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: darksalmon;
+    padding: 8px;
+    
+    
+    width: 1000px;
+    margin: 2px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 8px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <title>WebCam Application</title>
+        <link href="/css/styles.css" type="text/css" rel="stylesheet"/>
+        <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link href="/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+         <div class="login_container">
+             <nav id="head">
+                 <!-- <a href="http://www.kaleva.fi">Kaleva</a> -->
+                 <!-- <a href="http://www.iltasanomat.fi">Iltis</a> -->
+                 
+                 <a href="addPerson.html"><p>Add New Video</p></a>
+            </nav>
+             <section>
+                 <!-- <div class="login_container"> -->
+                 <!-- <h1 class="about">Seach video from batabase</h1> -->
+                 <p>or search video from database</p>
+                 <input id="search_text" type="text" placeholder="search by camera"/>
+                 <input type="button" value="Search" id="search"/>
+                 <table class="table">
+                     <thead>
+                     </thead>
+                     <tbody>
+                     </tbody>
+                 </table>
+                 <!-- </div> -->
+             </section>
+             <footer data-dummy="">
+                 <!-- <p>Copyright by Team Ohjelmistokehitys</p> -->
+             </footer>
+         </div>
+        <script src="/lib/jquery-2.1.4.min.js"></script>
+        <script src="/controllers/scripts.js"></script>
+    </body>
+</html>
